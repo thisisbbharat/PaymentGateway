@@ -4,7 +4,7 @@ import stripe
 app = Flask(__name__)
 
 # Initialize Stripe with your API key
-stripe.api_key = "YOUR_STRIPE_API_KEY"
+stripe.api_key = "pk_test_51OouD1SEeO14Os1OyYa7h9Y7BMh2Cbzp3YCgLOkKkygAGgk4N6LlduLCjB1cIq8ERQIUqWRmRn3F9nEyWMMQ9E0S00Xyk66yAO"
 
 @app.route('/')
 def index():
